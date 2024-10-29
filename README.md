@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Product Page with Radix UI and Framer Motion
 
-## Getting Started
+This is a product page built with Next.js, Radix UI, and Framer Motion. It includes product variations with image switching, a dropdown for color selection, an animated "Add to Cart" feedback message, and a loading indicator for images.
 
-First, run the development server:
+## Features
+
+- **Color Variants**: Choose between different color options with Radix UI's custom select component.
+- **Image Switching**: Click on arrows to change product images based on the selected variant.
+- **Add to Cart Animation**: See a pop-up feedback animation each time a product is added to the cart.
+- **Image Loader**: Shows a spinner while images load from external sources.
+- **Responsive Layout**: Optimized layout for both mobile and desktop screens.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - The React Framework for production.
+- [Radix UI](https://www.radix-ui.com/) - Primitives for building accessible, unstyled UI components.
+- [Framer Motion](https://www.framer.com/motion/) - Library for animations and transitions.
+- [React Icons](https://react-icons.github.io/react-icons/) - Icons for navigation and actions.
+
+## Installation
+
+To get started, clone this repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-username/product-page.git
+cd product-page
+npm install
+```
+
+## Running the Application
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Build for production:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- components/: Contains custom UI components.
+- public/: Static assets such as placeholder images.
+- pages/: Next.js pages, including index.tsx as the main product page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Choose a Product Variant: Select a color from the dropdown to switch the product image and description.
+2. Navigate Images: Use the left and right arrows to navigate between images.
+3. Add to Cart: Click the "Add to Cart" button to see an animated feedback message. This also updates the cart count.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is deployed using Vercel CLI/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+
+### Happy coding
+
+I hope you enjoy exploring and contributing to my project. If you have any questions or feedback, feel free to reach out. Let's build amazing experiences together!
