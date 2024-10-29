@@ -22,8 +22,8 @@ This is a product page built with Next.js, Radix UI, and Framer Motion. It inclu
 To get started, clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/product-page.git
-cd product-page
+git clone https://github.com/your-username/metakam-tt.git
+cd metakam-tt
 npm install
 ```
 
