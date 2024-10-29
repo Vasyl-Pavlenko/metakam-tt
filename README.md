@@ -1,6 +1,6 @@
 # Product Page with Radix UI and Framer Motion
 
-This is a product page built with Next.js, Radix UI, and Framer Motion. It includes product variations with image switching, a dropdown for color selection, an animated "Add to Cart" feedback message, and a loading indicator for images.
+This is a product page built with Next.js, Radix UI, and Framer Motion. It includes product variations with image switching, a dropdown for color selection, an animated "Add to Cart" feedback message, and a loading indicator for images. [DEMO LINK](https://metakam-tt.vercel.app/)
 
 ## Features
 
